@@ -16,7 +16,7 @@ namespace Beecrowd_Consumption_1014
             Y = Convert.ToDouble(Console.ReadLine());
 
             avgDistance = (X/Y);
-            Console.WriteLine("Average Distance = {0:00.00}", avgDistance);
+            Console.WriteLine($"{(avgDistance):F3} km/l");
             Console.ReadKey();
         }
     }
